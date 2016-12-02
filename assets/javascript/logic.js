@@ -12,13 +12,33 @@ var config = {
 
   var database = firebase.database();
 
-  var name = "";
-  var email = "";
-  var age = 0;
-  var comment = "";
+  var employeeName = "";
+  var role = "";
+  var startDate = "";
+  var monthlyRate 0;
 
 
-  $("#")
+  $("#add-user").on("click", function(){
+
+
+
+  	employeeName = $("#name-input").val().trim();
+  	role = $("#role-input").val().trim();
+  	startDate = $("#date-input").val().trim();
+  	monthlyRate = $("#rate-holder").val().trim().parseInt().
+
+
+  	dataRef.ref().push({
+
+		employeeName: employeeName,
+		role: role,
+		startDate: startDate,
+		monthlyRate: monthlyRate
+  	}),
+
+  	return false;
+
+  });
 
 
 
