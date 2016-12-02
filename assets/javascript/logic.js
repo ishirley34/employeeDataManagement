@@ -7,6 +7,3 @@
     messagingSenderId: "813836623686"
   };
   firebase.initializeApp(config);
-
-
-  //  HEre are some weird changes
