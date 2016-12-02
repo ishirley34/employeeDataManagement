@@ -8,7 +8,7 @@ var config = {
     messagingSenderId: "813836623686"
   };
   firebase.initializeApp(config);
-<<<<<<< HEAD
+
 
   var database = firebase.database();
 
@@ -30,6 +30,4 @@ var config = {
 
 
 });  
-  //  HEre are some weird changes
-=======
->>>>>>> 6b70ebdc2f2fa028d6f88ea6066694afe1479fad
+
