@@ -15,7 +15,7 @@ var config = {
   var employeeName = "";
   var role = "";
   var startDate = "";
-  var monthlyRate 0;
+  var monthlyRate = 0;
 
 
   $("#add-user").on("click", function(){
@@ -34,7 +34,7 @@ var config = {
 		role: role,
 		startDate: startDate,
 		monthlyRate: monthlyRate
-  	}),
+  	});
 
   	return false;
 
